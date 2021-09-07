@@ -1,0 +1,26 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "date-fns": "^2.23.0",
+    "downloadjs": "^1.4.7",
+    "firebase": "^9.0.1",
+    "pdf-lib": "^1.16.0",
+    "signature_pad": "^3.0.0-beta.4"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "postcss": "^8.2.15"
+  }
+}
